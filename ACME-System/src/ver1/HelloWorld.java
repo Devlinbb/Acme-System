@@ -5,6 +5,8 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello from Eclipse");
 		System.out.println("Dave is working locally on his branch");
+		heyNow();
+		whatFor();
 	}
 	
 	public static void heyNow() {
@@ -12,4 +14,8 @@ public class HelloWorld {
 		System.out.println(Msg);
 	}
 
+	public static void whatFor() {
+		String Msg = "What For!";
+		System.out.println(Msg);
+	}
 }
